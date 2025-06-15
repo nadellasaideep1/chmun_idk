@@ -13,7 +13,7 @@ function Committees() {
     {
       abbr: "DISEC",
       fullForm: "Disarmament and International Security Committee",
-      agenda: "Nuclear Disarmament Strategies",
+      agenda: "The Role of Cybersecurity in Maintaining International Peace and Security",
       bgImage: "disec.jpg",
       path: "/committees/disec",
     },
@@ -27,7 +27,7 @@ function Committees() {
     {
       abbr: "UNODC",
       fullForm: "United Nations Office on Drugs and Crime",
-      agenda: "Combating Transnational Organized Crime",
+      agenda: "Preventing and Disrupting International Arms Trafficking Networks",
       bgImage: "unodc.jpeg",
       path: "/committees/unodc",
     },
