@@ -24,7 +24,7 @@ function DISEC() {
           Disarmament and International Security Committee
         </h1>
         <p className="text-2xl md:text-3xl text-gray-200 text-center mb-12">
-          <strong>Agenda:</strong> Discussing National Policy Reforms
+          <strong>Agenda:</strong> The Role of Cybersecurity in Maintaining International Peace and Security
         </p>
         <p className="text-lg md:text-xl text-gray-300 text-center max-w-3xl mb-5">
           The All India Political Parties Meet (DISEC) brings together
