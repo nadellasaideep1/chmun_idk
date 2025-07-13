@@ -1,12 +1,9 @@
 import { useEffect, useRef } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
-import { Routes, Route, useLocation } from "react-router-dom";
 import NotFound from "./components/NotFound";
-import Register from "./pages/Register";
 
-function Home() {
-  const { pathname } = useLocation();
-
+function HomePage() {
   const aboutRef = useRef(null);
   const secGenRef = useRef(null);
   const principalRef = useRef(null);
@@ -16,10 +13,6 @@ function Home() {
   const isSecGenInView = useInView(secGenRef, { once: true, amount: 0.3 });
   const isPrincipalInView = useInView(principalRef, { once: true, amount: 0.3 });
   const isChairmanInView = useInView(chairmanRef, { once: true, amount: 0.3 });
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
 
   useEffect(() => {
     const letters = document.querySelectorAll(".bounce-letter");
@@ -36,6 +29,7 @@ function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
         <div className="relative z-10 flex items-center justify-center">
+          {/* CHMUN Logo with Glow */}
           <div className="relative before:content-[''] before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 before:z-0">
             <motion.img
               src="/chmunlogo.png"
@@ -47,6 +41,8 @@ function Home() {
             />
           </div>
         </div>
+
+        {/* CHMUN'25 Text */}
         <div className="text-7xl md:text-9xl lg:text-[230px] font-extrabold tracking-tight whitespace-nowrap z-10">
           {"CHMUN'25".split("").map((char, index) => (
             <span
@@ -58,6 +54,8 @@ function Home() {
             </span>
           ))}
         </div>
+
+        {/* Date and Tagline */}
         <motion.p
           className="mt-6 text-xl md:text-2xl text-gray-300 whitespace-nowrap text-center z-10"
           initial={{ y: 50, opacity: 0 }}
@@ -66,15 +64,18 @@ function Home() {
         >
           August 23, 2025 - August 24, 2025
         </motion.p>
+
         <motion.p
           className="mt-2 text-2xl font-semibold text-yellow-300 z-10"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
         >
-          Create.Collaborate. Conquer.
+          Create. Collaborate. Conquer.
         </motion.p>
       </section>
+
+      {/* About Section */}
       <motion.section
         id="about"
         ref={aboutRef}
@@ -110,6 +111,8 @@ function Home() {
           </motion.p>
         </div>
       </motion.section>
+
+      {/* Letters */}
       {["chairman", "principal", "secGen"].map((role) => {
         const ref = { chairman: chairmanRef, principal: principalRef, secGen: secGenRef }[role];
         const inView = { chairman: isChairmanInView, principal: isPrincipalInView, secGen: isSecGenInView }[role];
@@ -123,6 +126,7 @@ function Home() {
           principal: "Warm regards,\n[Principal's Name]",
           secGen: "Yours sincerely,\n[Secretary General's Name]",
         }[role];
+
         return (
           <motion.section
             key={role}
@@ -153,17 +157,15 @@ function Home() {
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
               >
-                <p className="text-lg leading-relaxed mb-6 font-sans">Dear Participants,</p>
-                <p className="text-lg leading-relaxed mb-6 font-sans">
+                <p className="text-lg leading-relaxed mb-6">Dear Participants,</p>
+                <p className="text-lg leading-relaxed mb-6">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
                   labore et dolore magna aliqua.
                 </p>
-                <p className="text-lg leading-relaxed mb-6 font-sans">
+                <p className="text-lg leading-relaxed mb-6">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <p className="text-lg leading-relaxed mb-2 font-sans">
-                  {closing.split("\n")[0]}
-                </p>
+                <p className="text-lg leading-relaxed mb-2">{closing.split("\n")[0]}</p>
                 <motion.p className="text-2xl font-serif">
                   {closing.split("\n")[1]}
                 </motion.p>
@@ -177,12 +179,21 @@ function Home() {
 }
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/register" element={<Register />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+
+        {/* other routes if needed, e.g. <Route path="/about" element={<AboutPage />} /> */}
+
+        {/* catch-all */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 
