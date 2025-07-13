@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Routes, Route, useLocation } from "react-router-dom";
 import NotFound from "./components/NotFound";
-import Register from "./components/Register";
+import Register from "./pages/Register";
 
 function Home() {
   const { pathname } = useLocation();
