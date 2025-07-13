@@ -1,13 +1,10 @@
 import { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import NotFound from "./components/NotFound";
 
-function App() {
+function Home() {
   const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
 
   const aboutRef = useRef(null);
   const secGenRef = useRef(null);
@@ -18,6 +15,10 @@ function App() {
   const isSecGenInView = useInView(secGenRef, { once: true, amount: 0.3 });
   const isPrincipalInView = useInView(principalRef, { once: true, amount: 0.3 });
   const isChairmanInView = useInView(chairmanRef, { once: true, amount: 0.3 });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     const letters = document.querySelectorAll(".bounce-letter");
@@ -182,6 +183,15 @@ function App() {
         );
       })}
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
