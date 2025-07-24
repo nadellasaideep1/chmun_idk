@@ -33,7 +33,7 @@ function Resources() {
         <section className="w-full mb-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
             {[
-              { label: 'Matrix', href: 'https://drive.google.com/matrix' },
+              { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/1PEOXddIbsHixOREJgwwPOa67FfRT18F3UJCq6KB6dAY/edit?gid=1613154038#gid=1613154038' },
               { label: 'Background Guides', href: 'https://drive.google.com/background-guides' },
               { label: 'Delegate Handbook', href: 'https://drive.google.com/delegate-handbook' },
             ].map((item, index) => (

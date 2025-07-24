@@ -37,14 +37,14 @@ function UNODC() {
           <span className="block">Drugs and Crime</span>
         </h1>
         <p className="text-2xl md:text-3xl text-gray-200 text-center mb-12">
-          <strong>Agenda:</strong> Preventing and Disrupting International Arms Trafficking Networks
+          <strong>Agenda:</strong> Rehabilitation and Reintegration of Prisoners Including Prisoners of War and Juveniles.
         </p>
         <p className="text-lg md:text-xl text-gray-300 text-center max-w-3xl mb-5">
 UNODC tackles issues related to transnational crime, narcotics trafficking, terrorism, and corruption. Delegates propose cooperative frameworks to combat illicit networks and promote legal and institutional reforms. It emphasizes international collaboration and rule of law.
         </p>
         <div className="flex flex-row sm:flex-row mb-5 gap-4">
           <a
-            href="https://example.com/UNODC"
+            href="https://docs.google.com/spreadsheets/d/1PEOXddIbsHixOREJgwwPOa67FfRT18F3UJCq6KB6dAY/edit?gid=1613154038#gid=1613154038"
             target="_blank"
             rel="noopener noreferrer"
           >

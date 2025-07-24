@@ -35,10 +35,10 @@ function Register() {
             Individual Registration
           </h2>
           <p className="text-lg md:text-xl text-gray-300 text-center mb-4">
-            Fee: ₹1200
+            Fee: ₹1100
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeIcYjMOnZpoPOh6rShryvpPtXJSYAOL9tBaZTL-EIvs3utvw/viewform"
+            href="https://forms.gle/hXGkHg3o3hQtE4hcA"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center"
@@ -55,10 +55,10 @@ function Register() {
             Delegation Registration
           </h2>
           <p className="text-lg md:text-xl text-gray-300 text-center mb-4">
-            Fee: ₹1200 per Delegate
+            Fee: ₹1100 per Delegate
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeIcYjMOnZpoPOh6rShryvpPtXJSYAOL9tBaZTL-EIvs3utvw/viewform"
+            href="https://forms.gle/At9zYh2FBMYkNBfK7"
             target="_blank"
             rel="noopener noreferrer"
             className="flex justify-center"
