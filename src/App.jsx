@@ -35,11 +35,11 @@ function App() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
 <div className="relative z-10 flex items-center justify-center">
       {/* CHMUN Logo with Glow */}
-      <div className="relative before:content-[''] before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 md:before:blur-[32px] md:before:opacity-30 before:z-0">
+      <div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 md:before:blur-[32px] md:before:opacity-30 before:z-0">
         <motion.img
           src="/chmunlogo.png"
           alt="CHMUN Logo"
-          className="w-60 h-60 md:w-50 md:h-50 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
+          className="w-60 h-60 md:w-50 md:h-50  mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
@@ -48,7 +48,7 @@ function App() {
     </div>
 
         {/* CHMUN'25 Text */}
-        <div className="text-7xl md:text-9xl lg:text-[230px] font-extrabold tracking-tight whitespace-nowrap z-10">
+        <div className="text-7xl md:text-7xl lg:text-[200px] font-extrabold tracking-tight whitespace-nowrap z-10">
           {"CHMUN'25".split("").map((char, index) => (
             <span
               key={index}
