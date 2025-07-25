@@ -152,9 +152,9 @@ function App() {
               <p className="text-lg leading-relaxed mb-6 font-sans">
                Greetings delegates!
                 It is with great pride and enthusiasm that the Organising Committee extends a warm invitation to you to attend CHMUN’25, hosted by Chrysalis High ,Kadugodi. Scheduled to take place on 23rd and 24th of August, this prestigious conference promises to be a platform for young minds to engage in meaningful dialogue, critical problem-solving, and diplomacy. 
-                
+                /n
                 CHMUN’25 brings together delegates from across schools to simulate international diplomacy, as they represent various nations and address pressing global issues, just as diplomats do on real-world stages.
-               
+               /n
                 This year, delegates will plunge into six electrifying committees, each more thrilling than the last. From tackling global flashpoints in DISEC and power struggles in the UNSC, to igniting fiery ideological clashes in AIPPM and rewriting justice in the UNHRC and UNODC—CHMUN’25 pulls no punches. And for those daring enough, the CCC awaits, where chaos reigns and history is made in real time. With high drama, fierce diplomacy, and relentless crises, this year’s edition promises nothing short of a diplomatic battlefield.
               </p>
 
