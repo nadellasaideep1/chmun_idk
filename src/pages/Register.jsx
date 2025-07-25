@@ -13,7 +13,7 @@ function Register() {
     <div className="min-h-screen bg-black text-white pt-20 flex flex-col items-center">
       {/* Top Section with Logo Background */}
       <section
-        className="w-full flex flex-col items-center bg-contain bg-center bg-no-repeat py-32"
+        className="w-full flex flex-col items-center bg-contain bg-center bg-no-repeat py-24"
         style={{
           backgroundImage: `url('/chmunlogo.png')`,
           backgroundColor: 'rgba(0,0,0,0.8)',
