@@ -39,7 +39,7 @@ function App() {
             <motion.img
               src="/chmunlogo.png"
               alt="CHMUN Logo"
-              className="w-70 h-70 md:w-52 md:h-52 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
+              className="w-100 h-100 md:w-52 md:h-52 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1 }}
@@ -135,35 +135,27 @@ function App() {
           chairman: (
             <>
               <p className="text-lg leading-relaxed mb-6 font-sans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <p className="text-lg leading-relaxed mb-6 font-sans">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Chairman letter
               </p>
             </>
           ),
           principal: (
             <>
               <p className="text-lg leading-relaxed mb-6 font-sans">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                Principal letter
               </p>
-              <p className="text-lg leading-relaxed mb-6 font-sans">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+     
             </>
           ),
           secGen: (
             <>
               <p className="text-lg leading-relaxed mb-6 font-sans">
                Greetings delegates!
-It is with great pride and enthusiasm that the Organising Committee extends a warm invitation to you to attend CHMUN’25, hosted by Chrysalis High ,Kadugodi. Scheduled to take place on 23rd and 24th of August, this prestigious conference promises to be a platform for young minds to engage in meaningful dialogue, critical problem-solving, and diplomacy. CHMUN’25 brings together
-delegates from across schools to simulate international diplomacy, as they represent various nations and address pressing global issues, just as diplomats do on real-world stages.
-This year, delegates will plunge into six electrifying committees, each more thrilling than the last. From tackling global flashpoints in DISEC and power struggles in the UNSC, to igniting fiery ideological clashes in AIPPM and rewriting justice in the UNHRC and UNODC—CHMUN’25 pulls no punches. And for those daring enough, the CCC awaits, where chaos reigns and history is made in real time. With high drama, fierce diplomacy, and relentless crises, this year’s edition promises nothing short of a diplomatic battlefield.
-.
+                It is with great pride and enthusiasm that the Organising Committee extends a warm invitation to you to attend CHMUN’25, hosted by Chrysalis High ,Kadugodi. Scheduled to take place on 23rd and 24th of August, this prestigious conference promises to be a platform for young minds to engage in meaningful dialogue, critical problem-solving, and diplomacy. CHMUN’25 brings together
+                delegates from across schools to simulate international diplomacy, as they represent various nations and address pressing global issues, just as diplomats do on real-world stages.
+                This year, delegates will plunge into six electrifying committees, each more thrilling than the last. From tackling global flashpoints in DISEC and power struggles in the UNSC, to igniting fiery ideological clashes in AIPPM and rewriting justice in the UNHRC and UNODC—CHMUN’25 pulls no punches. And for those daring enough, the CCC awaits, where chaos reigns and history is made in real time. With high drama, fierce diplomacy, and relentless crises, this year’s edition promises nothing short of a diplomatic battlefield.
               </p>
-              <p className="text-lg leading-relaxed mb-6 font-sans">
-                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-              </p>
+
             </>
           ),
         }[role];
@@ -198,17 +190,9 @@ This year, delegates will plunge into six electrifying committees, each more thr
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
               >
-                <p className="text-lg leading-relaxed mb-6 font-sans">Dear Participants,</p>
+                <p className="text-lg leading-relaxed mb-6 font-sans">Dear Delegates,</p>
 
                 {letterBody}
-
-                <p className="text-lg leading-relaxed mb-6 font-sans">
-                rrrwer
-                </p>
-                <p className="text-lg leading-relaxed mb-6 font-sans">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-
                 <p className="text-lg leading-relaxed mb-2 font-sans">
                   {closing.split("\n")[0]}
                 </p>

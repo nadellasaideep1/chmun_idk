@@ -46,7 +46,7 @@ function AIPPM() {
         </p>
         <div className="flex flex-row sm:flex-row mb-5 gap-4">
           <a
-            href="https://docs.google.com/spreadsheets/d/1PEOXddIbsHixOREJgwwPOa67FfRT18F3UJCq6KB6dAY/edit?gid=1613154038#gid=1613154038"
+            href="https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=693160163#gid=693160163"
             target="_blank"
             rel="noopener noreferrer"
           >
