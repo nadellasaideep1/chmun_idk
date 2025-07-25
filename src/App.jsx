@@ -33,19 +33,19 @@ function App() {
     <div className="min-h-screen bg-black text-white font-sans">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
-        <div className="relative z-10 flex items-center justify-center">
-          {/* CHMUN Logo with Glow */}
-          <div className="relative before:content-[''] before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 before:z-0">
-            <motion.img
-              src="/chmunlogo.png"
-              alt="CHMUN Logo"
-              className="w-60 h-60 md:w-50 md:h-50 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1 }}
-            />
-          </div>
-        </div>
+<div className="relative z-10 flex items-center justify-center">
+      {/* CHMUN Logo with Glow */}
+      <div className="relative before:content-[''] before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 md:before:blur-[32px] md:before:opacity-30 before:z-0">
+        <motion.img
+          src="/chmunlogo.png"
+          alt="CHMUN Logo"
+          className="w-60 h-60 md:w-50 md:h-50 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+        />
+      </div>
+    </div>
 
         {/* CHMUN'25 Text */}
         <div className="text-7xl md:text-9xl lg:text-[230px] font-extrabold tracking-tight whitespace-nowrap z-10">
@@ -152,9 +152,9 @@ function App() {
               <p className="text-lg leading-relaxed mb-6 font-sans">
                Greetings delegates!
                 It is with great pride and enthusiasm that the Organising Committee extends a warm invitation to you to attend CHMUN’25, hosted by Chrysalis High ,Kadugodi. Scheduled to take place on 23rd and 24th of August, this prestigious conference promises to be a platform for young minds to engage in meaningful dialogue, critical problem-solving, and diplomacy. 
-                /n
+                <br />
                 CHMUN’25 brings together delegates from across schools to simulate international diplomacy, as they represent various nations and address pressing global issues, just as diplomats do on real-world stages.
-               /n
+                <br />
                 This year, delegates will plunge into six electrifying committees, each more thrilling than the last. From tackling global flashpoints in DISEC and power struggles in the UNSC, to igniting fiery ideological clashes in AIPPM and rewriting justice in the UNHRC and UNODC—CHMUN’25 pulls no punches. And for those daring enough, the CCC awaits, where chaos reigns and history is made in real time. With high drama, fierce diplomacy, and relentless crises, this year’s edition promises nothing short of a diplomatic battlefield.
               </p>
 
