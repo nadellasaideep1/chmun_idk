@@ -16,7 +16,7 @@ function Register() {
         className="w-full flex flex-col items-center bg-contain bg-center bg-no-repeat py-32"
         style={{
           backgroundImage: `url('/chmunlogo.png')`,
-          backgroundColor: 'rgba(255, 255, 255, 0.6)',
+          backgroundColor: 'rgba(0,0,0,0.8)',
           backgroundBlendMode: 'overlay',
         }}
       >
