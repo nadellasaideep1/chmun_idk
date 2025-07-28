@@ -32,10 +32,11 @@ function Resources() {
       {/* Resources Content */}
       <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <section className="w-full mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
             {[
               { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
               { label: 'Background Guides', href: 'https://drive.google.com/background-guides' },
+              { label: 'Brochure', href: 'https://drive.google.com/background-guides' },
             ].map((item, index) => (
               <a
                 key={index}
