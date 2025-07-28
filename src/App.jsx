@@ -76,7 +76,7 @@ function App() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
         >
-          Create. Collaborate. Conquer.
+          Collaborate. Create.  Conquer.
         </motion.p>
       </section>
 

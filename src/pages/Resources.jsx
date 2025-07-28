@@ -34,9 +34,8 @@ function Resources() {
         <section className="w-full mb-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
             {[
-              { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/1PEOXddIbsHixOREJgwwPOa67FfRT18F3UJCq6KB6dAY/edit?gid=1613154038#gid=1613154038' },
+              { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
               { label: 'Background Guides', href: 'https://drive.google.com/background-guides' },
-              { label: 'Delegate Handbook', href: 'https://drive.google.com/delegate-handbook' },
             ].map((item, index) => (
               <a
                 key={index}
@@ -54,7 +53,7 @@ function Resources() {
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="col-start-1 lg:col-start-2">
               <a
-                href="https://drive.google.com/code-of-conduct"
+                href="https://docs.google.com/document/d/15c5gHUyRDBagP9jmLLThU2seHy4-Lmk5NOPi5VCJyAk/edit?tab=t.0#heading=h.voevijufnsij"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center"

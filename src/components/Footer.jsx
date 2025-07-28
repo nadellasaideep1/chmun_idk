@@ -18,7 +18,7 @@ function Footer() {
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
               <a
-                href="mailto:chmun@gmail.com"
+                href="mailto:chmun@chrysalishigh.com"
                 className="text-gray-300 hover:text-white transition-colors duration-200"
               >
                 chmun@gmail.com
