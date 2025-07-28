@@ -21,7 +21,7 @@ function Footer() {
                 href="mailto:chmun@chrysalishigh.com"
                 className="text-gray-300 hover:text-white transition-colors duration-200"
               >
-                chmun@gmail.com
+                chmun@chrysalishigh.com
               </a>
             </div>
           </div>
