@@ -216,7 +216,7 @@ function App() {
                   {closing.split("\n")[0]}
                 </p>
                 <motion.p className="text-2xl font-serif">
-                  {closing.split("\n")[1]}
+                  {closing.split("\n")[2]}
                 </motion.p>
               </motion.div>
             </div>
