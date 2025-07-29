@@ -210,7 +210,6 @@ function App() {
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
               >
-                <p className="text-lg leading-relaxed mb-6 font-sans">Dear Delegates,</p>
 
                 {letterBody}
                 <p className="text-lg leading-relaxed mb-2 font-sans">
