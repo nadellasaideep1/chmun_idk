@@ -127,22 +127,42 @@ function App() {
           secGen: "Letter from the Secretary General",
         }[role];
         const closing = {
-          chairman: "Warm regards,\n[Chairman's Name]",
-          principal: "Warm regards,\n[Principal's Name]",
+          chairman: "With pride and best regards,\nDr. Sawal Das Jethani",
+          principal: "Warm regards,\nMs. Singupilla Ratna Kumari]",
           secGen: "Yours sincerely,\nPriyanshu Biswas",
         }[role];
         const letterBody = {
           chairman: (
             <>
               <p className="text-lg leading-relaxed mb-6 font-sans">
-                Chairman letter
+                It is with immense pride and joy that I welcome you to CHMUN 2025, the first Model United Nations Conference hosted by Chrysalis High, Kadugodi on 23rd and 24th August, 2025. 
+
+                This moment marks a powerful step forward in our commitment to nurturing young minds who are not only academically sound but also globally conscious and socially responsible.
+
+                In a world that is increasingly interconnected and complex, it is crucial for our youth to understand the nuances of diplomacy, international relations, and collaborative problem-solving. CHMUN provides a vibrant platform for students to step into the shoes of global leaders, engage in purposeful dialogue, and find constructive solutions to real-world issues. It is a powerful simulation that nurtures critical thinking, eloquent expression, empathy, and leadership – values that lie at the very heart of Chrysalis High.
+
+                To all our young diplomats: may you embrace this platform with courage and inquisitiveness. Let your words be wise, your intent be noble, and your diplomacy be impactful. This is your moment to shine.
+
+                 Warm wishes for a successful and transformative conference!
+
+                With pride and best regards,
+
               </p>
             </>
           ),
           principal: (
             <>
               <p className="text-lg leading-relaxed mb-6 font-sans">
-                Principal letter
+                It is my distinct honour to welcome you to this year’s Model United Nations—a gathering where dreams take shape and leaders are born. MUN is not just an event; it is a journey of discovery, resilience, and growth. In stepping into the roles of global diplomats, you embrace the responsibility and privilege of shaping a better world.
+
+You are the visionaries, the voices daring to challenge the status quo, and the hearts determined to make a difference. Your courage to debate complex issues, your tenacity in seeking solutions, and your empathy for perspectives beyond your own stand as powerful beacons of hope. Remember, the world’s greatest movements have often begun with the bold convictions of young changemakers like you.
+
+Every session you attend, every resolution you craft, and every word you speak is a testament to your spirit. Let this MUN experience ignite your passion for leadership, empower you to rise above challenges, and inspire those around you. Know that the skills, friendships, and lessons you gain here will extend far beyond these walls, carrying you forward as ethical, confident, and compassionate global citizens.
+
+Embrace this moment. Lead with integrity. Speak with purpose. Believe in the power of your voice, for it is voices like yours that will create a brighter, more peaceful tomorrow. 
+Congratulations to every MUN delegate. May your journey be filled with thoughtful debate, impactful outcomes, and bonds that cross borders and cultures. May this session be a stepping stone to even greater achievements in your journey as global citizens.
+Wishing you an extraordinary, uplifting, and truly transformative MUN experience!
+
               </p>
      
             </>
