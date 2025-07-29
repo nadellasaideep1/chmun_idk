@@ -127,9 +127,9 @@ function App() {
           secGen: "Letter from the Secretary General",
         }[role];
         const closing = {
-          chairman: "With pride and best regards,\nDr. Sawal Das Jethani",
-          principal: "Warm regards,\nMs. Singupilla Ratna Kumari",
-          secGen: "Yours sincerely,\nPriyanshu Biswas",
+          chairman: "With pride and best regards,\nDr. Sawal Das Jethani,\nChairman,\n Chrysalis High",
+          principal: "Warm regards,\nMs. Singupilla Ratna Kumari,\nPrincipal, Chrysalis High,\n Kadugodi",
+          secGen: "Yours sincerely,\nPriyanshu Biswas,\nSecretary General",
         }[role];
         const letterBody = {
           chairman: (
