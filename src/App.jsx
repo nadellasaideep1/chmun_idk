@@ -218,10 +218,10 @@ function App() {
                 <motion.p className="text-2xl font-serif">
                   {closing.split("\n")[1]}
                 </motion.p>
-                                <motion.p className="text-xl font-serif">
+                                <motion.p className="text-xl pt-2  font-serif">
                   {closing.split("\n")[2]}
                 </motion.p>
-                                <motion.p className="text-xl font-serif">
+                                <motion.p className="text-xl py-1 font-serif">
                   {closing.split("\n")[3]}
                 </motion.p>
               </motion.div>
