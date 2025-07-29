@@ -128,7 +128,7 @@ function App() {
         }[role];
         const closing = {
           chairman: "With pride and best regards,\nDr. Sawal Das Jethani",
-          principal: "Warm regards,\nMs. Singupilla Ratna Kumari]",
+          principal: "Warm regards,\nMs. Singupilla Ratna Kumari",
           secGen: "Yours sincerely,\nPriyanshu Biswas",
         }[role];
         const letterBody = {
