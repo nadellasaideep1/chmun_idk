@@ -35,7 +35,7 @@ function App() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
 <div className="relative z-10 flex items-center justify-center">
       {/* CHMUN Logo with Glow */}
-      <div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full before:bg-white before:blur-3xl before:opacity-20 md:before:blur-[32px] md:before:opacity-30 before:z-0">
+      <div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full">
         <motion.img
           src="/chmunlogo.png"
           alt="CHMUN Logo"
@@ -110,9 +110,7 @@ function App() {
             animate={isAboutInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.4 }}
           >
-            CHMUN'25 is a prestigious Model United Nations conference bringing
-            together passionate delegates to discuss and debate global issues.
-            Join us for an unforgettable experience on 23rd and 24th August.
+            CHMUN’25 is a premier Model United Nations conference that unites driven and passionate delegates from around the world to deliberate on pressing global challenges. Join us on 23rd and 24th August 2025 for an inspiring journey of debate, diplomacy, and collaboration.
           </motion.p>
         </div>
       </motion.section>
