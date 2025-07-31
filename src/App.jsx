@@ -35,7 +35,7 @@ function App() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
 <div className="relative z-10 flex items-center justify-center">
       {/* CHMUN Logo with Glow */}
-      <div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full">
+      <div className="relative  pb-8 ">
         <motion.img
           src="/chmunlogo.png"
           alt="CHMUN Logo"
