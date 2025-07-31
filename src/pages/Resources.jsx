@@ -32,19 +32,25 @@ function Resources() {
       {/* Resources Content */}
       <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <section className="w-full mb-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-            {[
-              { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
-              { label: 'Background Guides', href: 'https://drive.google.com/background-guides' },
-              { label: 'Brochure', href: 'https://drive.google.com/background-guides' },
-            ].map((item, index) => (
-              <a
-                key={index}
-                href={item.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex justify-center"
-              >
+         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+  {[
+    { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
+    { label: 'Background Guides', href: '' },
+    { label: 'Brochure', href: 'https://drive.google.com/background-guides' },
+  ].map((item, index) => (
+    <a
+      key={index}
+      href={item.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex justify-center"
+      onClick={(e) => {
+        if (item.label === 'Background Guides') {
+          e.preventDefault(); // Prevent the link from opening
+          alert("Coming Soon"); // Show the "Coming Soon" alert
+        }
+      }}
+    >
                 <Button className="bg-white text-black hover:cursor-pointer hover:bg-gray-200 text-lg font-semibold px-8 py-3 rounded-lg w-full">
                   {item.label} <ExternalLink className="w-5 h-5 ml-2" />
                 </Button>
@@ -54,7 +60,7 @@ function Resources() {
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="col-start-1 lg:col-start-2">
               <a
-                href="https://docs.google.com/document/d/15c5gHUyRDBagP9jmLLThU2seHy4-Lmk5NOPi5VCJyAk/edit?tab=t.0#heading=h.voevijufnsij"
+                href="https://docs.google.com/document/d/1FB4zOMVGtdnGw_NByLtTLFXRcjCmsSMKurX3ZljjuzQ/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center"
