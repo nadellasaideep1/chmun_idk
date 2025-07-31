@@ -35,16 +35,17 @@ function App() {
       <section className="min-h-screen flex flex-col items-center justify-center pt-7 px-4 relative overflow-hidden">
 <div className="relative z-10 flex items-center justify-center">
       {/* CHMUN Logo with Glow */}
-      <div className="relative  pb-8 ">
-        <motion.img
-          src="/chmunlogo.png"
-          alt="CHMUN Logo"
-          className="w-60 h-60 md:w-50 md:h-50  mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-        />
-      </div>
+{/* CHMUN Logo without Glow */}
+<div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full before:z-0">
+  <motion.img
+    src="/chmunlogo.png"
+    alt="CHMUN Logo"
+    className="w-60 h-60 md:w-50 md:h-50 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1 }}
+  />
+</div>
     </div>
 
         {/* CHMUN'25 Text */}
