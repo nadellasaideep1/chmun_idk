@@ -59,9 +59,10 @@ function UNSC() {
             </Button>
           </a>
           <a
-            href="https://example.com/unsc-bg-guide"
-            target="_blank"
-            rel="noopener noreferrer"
+  onClick={(e) => {
+    e.preventDefault(); // Prevent the link from opening
+    alert("Coming Soon"); // Show the alert
+  }}
           >
             <Button
               className="hover:cursor-pointer mt-10 bg-white text-black text-lg font-semibold px-8 py-3 rounded-lg relative overflow-hidden group"
