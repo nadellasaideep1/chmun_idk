@@ -40,7 +40,7 @@ function Committees() {
     },
     {
       abbr: "CCC",
-      fullForm: "Crisis Committee Council",
+      fullForm: "Continuous Crisis Committee",
       agenda: "The Second Kuomintang-Communist Civil War",
       bgImage: "ccc.jpeg",
       path: "/committees/ccc",
