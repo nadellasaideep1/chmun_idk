@@ -36,7 +36,7 @@ function Resources() {
   {[
     { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
     { label: 'Background Guides', href: '' },
-    { label: 'Brochure', href: 'https://drive.google.com/background-guides' },
+    { label: 'Brochure', href: '' },
   ].map((item, index) => (
     <a
       key={index}
@@ -45,7 +45,7 @@ function Resources() {
       rel="noopener noreferrer"
       className="flex justify-center"
       onClick={(e) => {
-        if (item.label === 'Background Guides') {
+        if (item.label === 'Background Guides'|| 'Brochure') {
           e.preventDefault(); // Prevent the link from opening
           alert("Coming Soon"); // Show the "Coming Soon" alert
         }
