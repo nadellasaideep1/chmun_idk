@@ -35,8 +35,8 @@ function Resources() {
          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
   {[
     { label: 'Matrix', href: 'https://docs.google.com/spreadsheets/d/17j3mgUWoVHAypN4l-MdZtOFcBEQA-5zGSE7GTeToyBI/edit?gid=2126818736#gid=2126818736' },
-    { label: 'Background Guides', href: '' },
-    { label: 'Brochure', href: '' },
+    { label: 'Background Guides', href: 'https://drive.google.com/drive/u/2/folders/1HUZpQBu6LJKGmqpFk6AJdK1rabT2hCm9' },
+    { label: 'Brochure', href: 'https://drive.google.com/file/d/11lQksFpH_5jaJff4S0vm_yThDRCDMMzr/view?usp=share_link' },
   ].map((item, index) => (
     <a
       key={index}
@@ -45,7 +45,7 @@ function Resources() {
       rel="noopener noreferrer"
       className="flex justify-center"
       onClick={(e) => {
-        if (item.label === 'Background Guides'|| 'Brochure') {
+        if (item.label === 's'|| 'B') {
           e.preventDefault(); // Prevent the link from opening
           alert("Coming Soon"); // Show the "Coming Soon" alert
         }
