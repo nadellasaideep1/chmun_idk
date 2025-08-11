@@ -44,12 +44,6 @@ function Resources() {
       target="_blank"
       rel="noopener noreferrer"
       className="flex justify-center"
-      onClick={(e) => {
-        if (item.label === 's'|| 'B') {
-          e.preventDefault(); // Prevent the link from opening
-          alert("Coming Soon"); // Show the "Coming Soon" alert
-        }
-      }}
     >
                 <Button className="bg-white text-black hover:cursor-pointer hover:bg-gray-200 text-lg font-semibold px-8 py-3 rounded-lg w-full">
                   {item.label} <ExternalLink className="w-5 h-5 ml-2" />
