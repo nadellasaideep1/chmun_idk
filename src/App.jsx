@@ -40,7 +40,7 @@ function App() {
   <motion.img
     src="/chmunlogo.png"
     alt="CHMUN Logo"
-    className="w-60 h-60 md:w-70 md:h-70 mt-3 md:mt-4.5 mb-[-0.5rem] mx-auto block relative z-10"
+    className="w-60 h-60 md:w-60 md:h-60 mt-3 md:mt-4.5 mb-[-0.2rem] mx-auto block relative z-10"
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1 }}

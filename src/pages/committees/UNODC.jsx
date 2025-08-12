@@ -59,10 +59,9 @@ UNODC tackles issues related to transnational crime, narcotics trafficking, terr
             </Button>
           </a>
           <a
-  onClick={(e) => {
-    e.preventDefault(); // Prevent the link from opening
-    alert("Coming Soon"); // Show the alert
-  }}
+            href="https://drive.google.com/file/d/1dG0FMCpq9OEBiS8jLHwDNr-fVqO6boPC/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Button
               className="hover:cursor-pointer mt-10 bg-white text-black text-lg font-semibold px-8 py-3 rounded-lg relative overflow-hidden group"
