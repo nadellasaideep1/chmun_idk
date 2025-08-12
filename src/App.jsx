@@ -36,7 +36,7 @@ function App() {
 <div className="relative z-10 flex items-center justify-center">
       {/* CHMUN Logo with Glow */}
 {/* CHMUN Logo without Glow */}
-<div className="relative before:content-[''] pb-8 before:absolute before:inset-0 before:rounded-full before:z-0">
+<div className="relative before:content-[''] pb-4 before:absolute before:inset-0 before:rounded-full before:z-0">
   <motion.img
     src="/chmunlogo.png"
     alt="CHMUN Logo"
