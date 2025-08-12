@@ -54,7 +54,7 @@ function Resources() {
           <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="col-start-1 lg:col-start-2">
               <a
-                href="https://docs.google.com/document/d/1FB4zOMVGtdnGw_NByLtTLFXRcjCmsSMKurX3ZljjuzQ/edit?usp=sharing"
+                href="https://drive.google.com/file/d/17UXBlQKpxiK3Z1vbW2ml2ATnjsC6uBtK/view?usp=share_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-center"
